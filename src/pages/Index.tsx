@@ -64,14 +64,30 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-muted/30 to-background">
+      <header className="bg-white shadow-sm sticky top-0 z-50">
+        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/d456422a-543c-4d46-bee9-2e279764b9a7.png" 
+              alt="Дрим Тим" 
+              className="h-12 w-auto"
+            />
+            <div>
+              <h2 className="text-xl font-bold text-primary">Дрим Тим</h2>
+              <p className="text-xs text-muted-foreground">Сервисный центр</p>
+            </div>
+          </div>
+          <Button variant="default" size="lg">
+            <Icon name="Phone" className="mr-2" size={18} />
+            Позвонить
+          </Button>
+        </div>
+      </header>
       <div className="relative overflow-hidden bg-gradient-to-br from-primary via-secondary to-accent py-20 px-4">
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="container mx-auto relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <div className="inline-block bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-4">
-                <p className="text-white/90 font-medium text-sm">Сервисный центр "Дрим Тим"</p>
-              </div>
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
                 Ремонт компьютеров и ноутбуков
               </h1>
@@ -170,8 +186,21 @@ const Index = () => {
       </div>
 
       <footer className="bg-gradient-to-r from-primary via-secondary to-accent py-8 px-4 mt-16">
-        <div className="container mx-auto text-center text-white">
-          <p className="text-lg font-medium">© 2024 Сервисный центр "Дрим Тим". Все права защищены.</p>
+        <div className="container mx-auto">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-3">
+              <img 
+                src="https://cdn.poehali.dev/files/d456422a-543c-4d46-bee9-2e279764b9a7.png" 
+                alt="Дрим Тим" 
+                className="h-10 w-auto brightness-0 invert"
+              />
+              <div className="text-white">
+                <h3 className="font-bold">Дрим Тим</h3>
+                <p className="text-sm text-white/80">Сервисный центр</p>
+              </div>
+            </div>
+            <p className="text-white/90">© 2024 Все права защищены</p>
+          </div>
         </div>
       </footer>
     </div>
