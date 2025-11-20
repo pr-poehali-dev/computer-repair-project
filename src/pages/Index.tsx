@@ -69,6 +69,9 @@ const Index = () => {
         <div className="container mx-auto relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
+              <div className="inline-block bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-4">
+                <p className="text-white/90 font-medium text-sm">Сервисный центр "Дрим Тим"</p>
+              </div>
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
                 Ремонт компьютеров и ноутбуков
               </h1>
@@ -168,7 +171,7 @@ const Index = () => {
 
       <footer className="bg-gradient-to-r from-primary via-secondary to-accent py-8 px-4 mt-16">
         <div className="container mx-auto text-center text-white">
-          <p className="text-lg font-medium">© 2024 Ремонт компьютеров. Все права защищены.</p>
+          <p className="text-lg font-medium">© 2024 Сервисный центр "Дрим Тим". Все права защищены.</p>
         </div>
       </footer>
     </div>
