@@ -77,9 +77,11 @@ const Index = () => {
               <p className="text-xs text-muted-foreground">Сервисный центр</p>
             </div>
           </div>
-          <Button variant="default" size="lg">
-            <Icon name="Phone" className="mr-2" size={18} />
-            Позвонить
+          <Button variant="default" size="lg" asChild>
+            <a href="tel:+79991376048">
+              <Icon name="Phone" className="mr-2" size={18} />
+              +7 (999) 137-60-48
+            </a>
           </Button>
         </div>
       </header>
@@ -95,9 +97,11 @@ const Index = () => {
                 Профессиональный ремонт любой сложности. Быстро, качественно, с гарантией.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button size="lg" variant="secondary" className="text-lg font-semibold">
-                  <Icon name="Phone" className="mr-2" size={20} />
-                  Позвонить нам
+                <Button size="lg" variant="secondary" className="text-lg font-semibold" asChild>
+                  <a href="tel:+79991376048">
+                    <Icon name="Phone" className="mr-2" size={20} />
+                    +7 (999) 137-60-48
+                  </a>
                 </Button>
                 <Button size="lg" variant="outline" className="text-lg font-semibold bg-white/10 text-white border-white/30 hover:bg-white/20">
                   <Icon name="MessageSquare" className="mr-2" size={20} />
