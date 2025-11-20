@@ -181,7 +181,7 @@ const Index = () => {
                 <Icon name="Clock" size={24} className="text-primary flex-shrink-0" />
                 <div>
                   <p className="font-medium">Ежедневно</p>
-                  <p className="text-muted-foreground">с 9:00 до 20:00</p>
+                  <p className="text-muted-foreground">с 9:00 до 18:00</p>
                 </div>
               </div>
               <div className="pt-4 space-y-3">
@@ -265,7 +265,7 @@ const Index = () => {
             <div className="text-white text-center md:text-left">
               <h4 className="font-bold mb-3">Режим работы</h4>
               <p className="text-white/90">Ежедневно</p>
-              <p className="text-white/90">с 9:00 до 20:00</p>
+              <p className="text-white/90">с 9:00 до 18:00</p>
             </div>
           </div>
           <div className="border-t border-white/20 pt-6 text-center text-white/80">
