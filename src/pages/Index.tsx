@@ -109,6 +109,12 @@ const Index = () => {
                     WhatsApp
                   </a>
                 </Button>
+                <Button size="lg" variant="outline" className="text-lg font-semibold bg-white/10 text-white border-white/30 hover:bg-white/20 hover:bg-blue-500/20" asChild>
+                  <a href="https://t.me/+79991376048" target="_blank" rel="noopener noreferrer">
+                    <Icon name="Send" className="mr-2" size={20} />
+                    Telegram
+                  </a>
+                </Button>
               </div>
             </div>
             <div className="animate-scale-in">
