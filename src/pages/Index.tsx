@@ -153,6 +153,80 @@ const Index = () => {
           ))}
         </div>
 
+        <div className="mb-16 animate-fade-in">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold mb-4">Отзывы клиентов</h2>
+            <p className="text-xl text-muted-foreground">Что говорят о нас наши клиенты</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card className="shadow-lg hover:shadow-xl transition-shadow">
+              <CardContent className="pt-6">
+                <div className="flex gap-1 mb-4">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <Icon key={star} name="Star" size={20} className="text-yellow-500 fill-yellow-500" />
+                  ))}
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  "Отличный сервис! Быстро починили ноутбук, вернули в тот же день. Цены адекватные, мастера профессионалы."
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white font-bold">
+                    А
+                  </div>
+                  <div>
+                    <p className="font-medium">Александр</p>
+                    <p className="text-sm text-muted-foreground">2 недели назад</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-lg hover:shadow-xl transition-shadow">
+              <CardContent className="pt-6">
+                <div className="flex gap-1 mb-4">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <Icon key={star} name="Star" size={20} className="text-yellow-500 fill-yellow-500" />
+                  ))}
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  "Спасибо за восстановление данных! Думала всё потеряла, но ребята смогли всё вытащить с жесткого диска."
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-secondary to-accent flex items-center justify-center text-white font-bold">
+                    М
+                  </div>
+                  <div>
+                    <p className="font-medium">Мария</p>
+                    <p className="text-sm text-muted-foreground">1 месяц назад</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-lg hover:shadow-xl transition-shadow">
+              <CardContent className="pt-6">
+                <div className="flex gap-1 mb-4">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <Icon key={star} name="Star" size={20} className="text-yellow-500 fill-yellow-500" />
+                  ))}
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  "Обращался для чистки и замены термопасты. Всё сделали качественно, компьютер перестал шуметь и греться."
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-accent to-primary flex items-center justify-center text-white font-bold">
+                    Д
+                  </div>
+                  <div>
+                    <p className="font-medium">Дмитрий</p>
+                    <p className="text-sm text-muted-foreground">3 недели назад</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           <Card className="shadow-xl animate-fade-in">
             <CardHeader>
