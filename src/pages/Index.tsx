@@ -153,11 +153,53 @@ const Index = () => {
           ))}
         </div>
 
-        <Card className="max-w-2xl mx-auto shadow-xl animate-fade-in">
-          <CardHeader className="text-center">
-            <CardTitle className="text-3xl">Оставьте заявку</CardTitle>
-            <CardDescription className="text-lg">Мы свяжемся с вами в течение 15 минут</CardDescription>
-          </CardHeader>
+        <div className="grid md:grid-cols-2 gap-8 mb-16">
+          <Card className="shadow-xl animate-fade-in">
+            <CardHeader>
+              <CardTitle className="text-3xl flex items-center gap-2">
+                <Icon name="MapPin" size={32} className="text-primary" />
+                Наш адрес
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="flex gap-3">
+                <Icon name="MapPin" size={24} className="text-primary flex-shrink-0 mt-1" />
+                <div>
+                  <p className="font-medium text-lg">Нижегородская обл., п. Ильиногорск</p>
+                  <p className="text-muted-foreground">ул. Спортивная, д. 1, ТЦ "Космос", 2 этаж</p>
+                </div>
+              </div>
+              <div className="flex gap-3">
+                <Icon name="Phone" size={24} className="text-primary flex-shrink-0" />
+                <div>
+                  <a href="tel:+79991376048" className="font-medium text-lg hover:text-primary transition-colors">
+                    +7 (999) 137-60-48
+                  </a>
+                </div>
+              </div>
+              <div className="flex gap-3">
+                <Icon name="Clock" size={24} className="text-primary flex-shrink-0" />
+                <div>
+                  <p className="font-medium">Ежедневно</p>
+                  <p className="text-muted-foreground">с 9:00 до 20:00</p>
+                </div>
+              </div>
+              <div className="pt-4 space-y-3">
+                <Button className="w-full" size="lg" asChild>
+                  <a href="https://yandex.ru/maps/?text=Нижегородская обл., п. Ильиногорск, ул. Спортивная, д. 1" target="_blank" rel="noopener noreferrer">
+                    <Icon name="Navigation" className="mr-2" size={20} />
+                    Построить маршрут
+                  </a>
+                </Button>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="shadow-xl animate-fade-in">
+            <CardHeader className="text-center">
+              <CardTitle className="text-3xl">Оставьте заявку</CardTitle>
+              <CardDescription className="text-lg">Мы свяжемся с вами в течение 15 минут</CardDescription>
+            </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
@@ -195,23 +237,39 @@ const Index = () => {
             </form>
           </CardContent>
         </Card>
+        </div>
       </div>
 
-      <footer className="bg-gradient-to-r from-primary via-secondary to-accent py-8 px-4 mt-16">
+      <footer className="bg-gradient-to-r from-primary via-secondary to-accent py-12 px-4 mt-16">
         <div className="container mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div className="flex flex-col items-center md:items-start gap-3">
               <img 
                 src="https://cdn.poehali.dev/files/d456422a-543c-4d46-bee9-2e279764b9a7.png" 
                 alt="Дрим Тим" 
-                className="h-10 w-auto brightness-0 invert"
+                className="h-12 w-auto brightness-0 invert"
               />
-              <div className="text-white">
-                <h3 className="font-bold">Дрим Тим</h3>
+              <div className="text-white text-center md:text-left">
+                <h3 className="font-bold text-lg">Дрим Тим</h3>
                 <p className="text-sm text-white/80">Сервисный центр</p>
               </div>
             </div>
-            <p className="text-white/90">© 2024 Все права защищены</p>
+            <div className="text-white text-center md:text-left">
+              <h4 className="font-bold mb-3">Контакты</h4>
+              <div className="space-y-2 text-white/90">
+                <p>+7 (999) 137-60-48</p>
+                <p className="text-sm">Нижегородская обл., п. Ильиногорск</p>
+                <p className="text-sm">ул. Спортивная, д. 1, ТЦ "Космос", 2 этаж</p>
+              </div>
+            </div>
+            <div className="text-white text-center md:text-left">
+              <h4 className="font-bold mb-3">Режим работы</h4>
+              <p className="text-white/90">Ежедневно</p>
+              <p className="text-white/90">с 9:00 до 20:00</p>
+            </div>
+          </div>
+          <div className="border-t border-white/20 pt-6 text-center text-white/80">
+            <p>© 2024 Все права защищены</p>
           </div>
         </div>
       </footer>
