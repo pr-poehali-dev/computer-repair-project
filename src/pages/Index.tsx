@@ -103,9 +103,11 @@ const Index = () => {
                     +7 (999) 137-60-48
                   </a>
                 </Button>
-                <Button size="lg" variant="outline" className="text-lg font-semibold bg-white/10 text-white border-white/30 hover:bg-white/20">
-                  <Icon name="MessageSquare" className="mr-2" size={20} />
-                  Написать
+                <Button size="lg" variant="outline" className="text-lg font-semibold bg-white/10 text-white border-white/30 hover:bg-white/20 hover:bg-green-600/20" asChild>
+                  <a href="https://wa.me/79991376048" target="_blank" rel="noopener noreferrer">
+                    <Icon name="MessageCircle" className="mr-2" size={20} />
+                    WhatsApp
+                  </a>
                 </Button>
               </div>
             </div>
