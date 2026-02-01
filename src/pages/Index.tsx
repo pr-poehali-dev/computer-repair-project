@@ -16,40 +16,46 @@ const Index = () => {
 
   const services = [
     {
+      icon: 'Smartphone',
+      title: 'Ремонт телефонов',
+      description: 'Ремонт смартфонов любых марок. Замена экранов, аккумуляторов, восстановление после воды.',
+      gradient: 'from-primary to-secondary'
+    },
+    {
       icon: 'Laptop',
       title: 'Ремонт ноутбуков',
       description: 'Диагностика и ремонт ноутбуков любых производителей. Замена комплектующих, чистка, установка ПО.',
-      gradient: 'from-primary to-secondary'
+      gradient: 'from-secondary to-accent'
     },
     {
       icon: 'Monitor',
       title: 'Ремонт компьютеров',
       description: 'Профессиональный ремонт настольных компьютеров. Апгрейд, сборка новых систем, устранение неисправностей.',
-      gradient: 'from-secondary to-accent'
+      gradient: 'from-accent to-primary'
     },
     {
       icon: 'HardDrive',
       title: 'Восстановление данных',
       description: 'Восстановление информации с неисправных носителей. Работаем с любыми типами накопителей.',
-      gradient: 'from-accent to-primary'
+      gradient: 'from-primary to-accent'
     },
     {
       icon: 'Wifi',
       title: 'Настройка сети',
       description: 'Настройка локальных сетей, Wi-Fi роутеров, подключение к интернету. Быстро и надежно.',
-      gradient: 'from-primary to-accent'
+      gradient: 'from-secondary to-primary'
     },
     {
       icon: 'Settings',
       title: 'Установка ПО',
       description: 'Установка операционных систем и программного обеспечения. Настройка под ваши задачи.',
-      gradient: 'from-secondary to-primary'
+      gradient: 'from-accent to-secondary'
     },
     {
       icon: 'Shield',
       title: 'Удаление вирусов',
       description: 'Комплексная очистка от вирусов и вредоносного ПО. Установка защитных программ.',
-      gradient: 'from-accent to-secondary'
+      gradient: 'from-primary to-secondary'
     }
   ];
 
