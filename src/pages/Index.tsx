@@ -370,8 +370,10 @@ const Index = () => {
             </div>
             <div className="text-white text-center md:text-left">
               <h4 className="font-bold mb-3">Режим работы</h4>
-              <p className="text-white/90">Ежедневно</p>
+              <p className="text-white/90">Понедельник - Суббота</p>
               <p className="text-white/90">с 9:00 до 18:00</p>
+              <p className="text-white/90 mt-2">Воскресенье</p>
+              <p className="text-white/70">Выходной</p>
             </div>
           </div>
           <div className="border-t border-white/20 pt-6 text-center text-white/80">
