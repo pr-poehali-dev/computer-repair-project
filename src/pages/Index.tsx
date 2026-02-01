@@ -61,6 +61,14 @@ const Index = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    const subject = encodeURIComponent('Новая заявка с сайта');
+    const body = encodeURIComponent(
+      `Имя: ${formData.name}\nТелефон: ${formData.phone}\n\nСообщение:\n${formData.message}`
+    );
+    
+    window.location.href = `mailto:help@xn--52-6kc3bfr2e.xn--p1ai?subject=${subject}&body=${body}`;
+    
     toast({
       title: "Заявка отправлена!",
       description: "Мы свяжемся с вами в ближайшее время.",
