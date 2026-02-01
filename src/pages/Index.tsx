@@ -249,6 +249,9 @@ const Index = () => {
                   <a href="tel:+79966596511" className="font-medium text-lg hover:text-primary transition-colors">
                     +7 (996) 659-65-11
                   </a>
+                  <a href="tel:+79991376048" className="text-muted-foreground text-sm hover:text-primary transition-colors block mt-1">
+                    +7 (999) 137-60-48
+                  </a>
                 </div>
               </div>
               <div className="flex gap-3">
@@ -332,6 +335,7 @@ const Index = () => {
               <h4 className="font-bold mb-3">Контакты</h4>
               <div className="space-y-2 text-white/90">
                 <p>+7 (996) 659-65-11</p>
+                <p className="text-sm text-white/70">+7 (999) 137-60-48</p>
                 <p className="text-sm">Нижегородская обл., п. Ильиногорск</p>
                 <p className="text-sm">ул. Спортивная, д. 1, ТЦ "Космос", 2 этаж</p>
               </div>
