@@ -78,9 +78,9 @@ const Index = () => {
             </div>
           </div>
           <Button variant="default" size="lg" asChild>
-            <a href="tel:+79991376048">
+            <a href="tel:+79966596511">
               <Icon name="Phone" className="mr-2" size={18} />
-              +7 (999) 137-60-48
+              +7 (996) 659-65-11
             </a>
           </Button>
         </div>
@@ -98,19 +98,19 @@ const Index = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button size="lg" variant="secondary" className="text-lg font-semibold" asChild>
-                  <a href="tel:+79991376048">
+                  <a href="tel:+79966596511">
                     <Icon name="Phone" className="mr-2" size={20} />
-                    +7 (999) 137-60-48
+                    +7 (996) 659-65-11
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="text-lg font-semibold bg-white/10 text-white border-white/30 hover:bg-white/20 hover:bg-green-600/20" asChild>
-                  <a href="https://wa.me/79991376048" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/79966596511" target="_blank" rel="noopener noreferrer">
                     <Icon name="MessageCircle" className="mr-2" size={20} />
                     WhatsApp
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" className="text-lg font-semibold bg-white/10 text-white border-white/30 hover:bg-white/20 hover:bg-blue-500/20" asChild>
-                  <a href="https://t.me/+79991376048" target="_blank" rel="noopener noreferrer">
+                  <a href="https://t.me/+79966596511" target="_blank" rel="noopener noreferrer">
                     <Icon name="Send" className="mr-2" size={20} />
                     Telegram
                   </a>
@@ -246,8 +246,8 @@ const Index = () => {
               <div className="flex gap-3">
                 <Icon name="Phone" size={24} className="text-primary flex-shrink-0" />
                 <div>
-                  <a href="tel:+79991376048" className="font-medium text-lg hover:text-primary transition-colors">
-                    +7 (999) 137-60-48
+                  <a href="tel:+79966596511" className="font-medium text-lg hover:text-primary transition-colors">
+                    +7 (996) 659-65-11
                   </a>
                 </div>
               </div>
@@ -331,7 +331,7 @@ const Index = () => {
             <div className="text-white text-center md:text-left">
               <h4 className="font-bold mb-3">Контакты</h4>
               <div className="space-y-2 text-white/90">
-                <p>+7 (999) 137-60-48</p>
+                <p>+7 (996) 659-65-11</p>
                 <p className="text-sm">Нижегородская обл., п. Ильиногорск</p>
                 <p className="text-sm">ул. Спортивная, д. 1, ТЦ "Космос", 2 этаж</p>
               </div>
