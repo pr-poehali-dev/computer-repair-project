@@ -263,8 +263,10 @@ const Index = () => {
               <div className="flex gap-3">
                 <Icon name="Clock" size={24} className="text-primary flex-shrink-0" />
                 <div>
-                  <p className="font-medium">Ежедневно</p>
+                  <p className="font-medium">Понедельник - Суббота</p>
                   <p className="text-muted-foreground">с 9:00 до 18:00</p>
+                  <p className="font-medium mt-2">Воскресенье</p>
+                  <p className="text-muted-foreground">Выходной</p>
                 </div>
               </div>
               <div className="pt-4 space-y-3">
