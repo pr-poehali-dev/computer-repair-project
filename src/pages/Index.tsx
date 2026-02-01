@@ -83,12 +83,20 @@ const Index = () => {
               <p className="text-xs text-muted-foreground">Сервисный центр</p>
             </div>
           </div>
-          <Button variant="default" size="lg" asChild>
-            <a href="tel:+79966596511">
-              <Icon name="Phone" className="mr-2" size={18} />
-              +7 (996) 659-65-11
-            </a>
-          </Button>
+          <div className="flex gap-3">
+            <Button variant="default" size="lg" asChild>
+              <a href="tel:+79966596511">
+                <Icon name="Phone" className="mr-2" size={18} />
+                +7 (996) 659-65-11
+              </a>
+            </Button>
+            <Button variant="outline" size="lg" asChild className="border-2 border-primary text-primary hover:bg-primary hover:text-white">
+              <a href="https://www.max.kg/ru/contacts" target="_blank" rel="noopener noreferrer">
+                <Icon name="Phone" className="mr-2" size={18} />
+                MAX
+              </a>
+            </Button>
+          </div>
         </div>
       </header>
       <div className="relative overflow-hidden bg-gradient-to-br from-primary via-secondary to-accent py-20 px-4">
