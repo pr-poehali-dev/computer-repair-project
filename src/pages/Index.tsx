@@ -258,6 +258,72 @@ const Index = () => {
                 </div>
               </CardContent>
             </Card>
+
+            <Card className="shadow-lg hover:shadow-xl transition-shadow">
+              <CardContent className="pt-6">
+                <div className="flex gap-1 mb-4">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <Icon key={star} name="Star" size={20} className="text-yellow-500 fill-yellow-500" />
+                  ))}
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  "Заменили экран на телефоне за час! Работают быстро и качественно, теперь только к ним буду обращаться."
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold">
+                    Е
+                  </div>
+                  <div>
+                    <p className="font-medium">Елена</p>
+                    <p className="text-sm text-muted-foreground">5 дней назад</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-lg hover:shadow-xl transition-shadow">
+              <CardContent className="pt-6">
+                <div className="flex gap-1 mb-4">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <Icon key={star} name="Star" size={20} className="text-yellow-500 fill-yellow-500" />
+                  ))}
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  "Настроили домашнюю сеть и Wi-Fi. Теперь интернет летает во всех комнатах. Спасибо за профессионализм!"
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-secondary to-primary flex items-center justify-center text-white font-bold">
+                    И
+                  </div>
+                  <div>
+                    <p className="font-medium">Игорь</p>
+                    <p className="text-sm text-muted-foreground">1 неделя назад</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="shadow-lg hover:shadow-xl transition-shadow">
+              <CardContent className="pt-6">
+                <div className="flex gap-1 mb-4">
+                  {[1, 2, 3, 4, 5].map((star) => (
+                    <Icon key={star} name="Star" size={20} className="text-yellow-500 fill-yellow-500" />
+                  ))}
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  "Починили микроволновку и утюг. Приятно удивлены ценами и скоростью работы. Рекомендую всем!"
+                </p>
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-br from-accent to-secondary flex items-center justify-center text-white font-bold">
+                    О
+                  </div>
+                  <div>
+                    <p className="font-medium">Ольга</p>
+                    <p className="text-sm text-muted-foreground">4 дня назад</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
 
